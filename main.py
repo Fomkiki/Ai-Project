@@ -349,7 +349,7 @@ elif page == "Model (Neuron Network)":
     if uploaded_file is not None:
         # แสดงภาพที่อัปโหลด
         image = Image.open(uploaded_file)
-        st.image(image, caption='Uploaded Image', use_column_width=True)
+        st.image(image, caption='Uploaded Image', use_container_width=True)
 
         # ปรับขนาดภาพให้ตรงกับขนาดที่โมเดลต้องการ (64x64)
         image = image.resize((64, 64))
