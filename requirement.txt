@@ -1,7 +1,8 @@
 streamlit
-scikit-learn
-numpy
 pandas
-joblib
+numpy
 matplotlib
-torch
+seaborn
+scikit-learn
+tensorflow
+Pillow
